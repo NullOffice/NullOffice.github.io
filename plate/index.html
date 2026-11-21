@@ -13,7 +13,8 @@
   #plate { overflow: auto; padding: 8px; }
   #plate svg { max-width: 100%; height: auto; }
   #plate [data-quote] { cursor: pointer; }
-  #plate .picked { stroke: #8b0000 !important; stroke-width: 6 !important; }
+  #plate .picked, #plate .picked rect.box { stroke: #8b0000 !important; stroke-width: 6 !important; }
+  #plate .picked rect.box { fill: #8b0000 !important; fill-opacity: .35 !important; }
   aside { border-left: 1px solid #ddd; padding: 16px; position: sticky; top: 0; align-self: start; }
   #name { font-weight: 600; }
   #quote { margin: 8px 0; font-family: Georgia, serif; font-size: 17px; }
