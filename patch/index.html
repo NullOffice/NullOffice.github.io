@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seven Times Seven to Helios — patch</title>
+<style>
+  body { font: 14px/1.45 ui-monospace, Menlo, Consolas, monospace; margin: 0; color: #111; background: #fff; }
+  header { padding: 12px 16px; border-bottom: 1px solid #ddd; display: flex; gap: 16px; flex-wrap: wrap; }
+  header a { color: #8b0000; }
+  header a[aria-current] { color: #111; text-decoration: none; font-weight: 600; }
+  pre { margin: 0; padding: 16px; white-space: pre; overflow-x: auto; }
+</style>
+</head>
+<body>
+<header>
+  <a href="../">materials</a>
+  <a id="a" href="?reading=a">Reading A — night loop ×7</a>
+  <a id="b" href="?reading=b">Reading B — dawn recitation ×49</a>
+  <a id="raw" href="reading-a.txt">plain text</a>
+</header>
+<pre id="code">loading…</pre>
+<script>
+  const which = new URLSearchParams(location.search).get('reading') === 'b' ? 'b' : 'a';
+  document.getElementById(which).setAttribute('aria-current', 'page');
+  document.getElementById('raw').href = `reading-${which}.txt`;
+  fetch(`reading-${which}.txt`).then(r => r.text()).then(t => { document.getElementById('code').textContent = t; });
+</script>
+</body>
+</html>

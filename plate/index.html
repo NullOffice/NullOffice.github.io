@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seven Times Seven to Helios — plate</title>
+<style>
+  body { font: 15px/1.45 ui-monospace, Menlo, Consolas, monospace; margin: 0; color: #111; background: #fff; }
+  header { padding: 12px 16px; border-bottom: 1px solid #ddd; display: flex; gap: 16px; align-items: baseline; flex-wrap: wrap; }
+  header a { color: #8b0000; }
+  header a[aria-current] { color: #111; text-decoration: none; font-weight: 600; }
+  main { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 0; }
+  #plate { overflow: auto; padding: 8px; }
+  #plate svg { max-width: 100%; height: auto; }
+  #plate [data-quote] { cursor: pointer; }
+  #plate .picked { stroke: #8b0000 !important; stroke-width: 6 !important; }
+  aside { border-left: 1px solid #ddd; padding: 16px; position: sticky; top: 0; align-self: start; }
+  #name { font-weight: 600; }
+  #quote { margin: 8px 0; font-family: Georgia, serif; font-size: 17px; }
+  #span { color: #666; }
+  @media (max-width: 760px) { main { grid-template-columns: 1fr; } aside { border-left: 0; border-top: 1px solid #ddd; position: static; } }
+</style>
+</head>
+<body>
+<header>
+  <a href="../">materials</a>
+  <a id="a" href="?reading=a">Reading A — night loop ×7</a>
+  <a id="b" href="?reading=b">Reading B — dawn recitation ×49</a>
+</header>
+<main>
+  <div id="plate">loading…</div>
+  <aside>
+    <div id="name">Click a mark.</div>
+    <div id="quote"></div>
+    <div id="span"></div>
+  </aside>
+</main>
+<script>
+  const which = new URLSearchParams(location.search).get('reading') === 'b' ? 'b' : 'a';
+  document.getElementById(which).setAttribute('aria-current', 'page');
+  fetch(`reading-${which}.svg`).then(r => r.text()).then(svg => {
+    const host = document.getElementById('plate');
+    host.innerHTML = svg;
+    let picked = null;
+    host.addEventListener('click', e => {
+      const el = e.target.closest('[data-quote]');
+      if (!el) return;
+      if (picked) picked.classList.remove('picked');
+      picked = el; el.classList.add('picked');
+      const kind = el.dataset.kind ? ` · ${el.dataset.kind}` : '';
+      document.getElementById('name').textContent = (el.dataset.name || '') + kind;
+      document.getElementById('quote').textContent = `“${el.dataset.quote}”`;
+      document.getElementById('span').textContent = `cites bytes ${el.dataset.span} of the sealed source (PGM I.42–195, sha256 8698aa5a…)`;
+    });
+  });
+</script>
+</body>
+</html>
