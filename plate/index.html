@@ -25,8 +25,8 @@
 <body>
 <header>
   <a href="../">materials</a>
-  <a id="a" href="?reading=a">Reading A — night loop ×7</a>
-  <a id="b" href="?reading=b">Reading B — dawn recitation ×49</a>
+  <a id="whole" href="?reading=whole">the whole rite ×7</a>
+  <a id="night" href="?reading=night">earlier libretto: night loop ×7</a>
 </header>
 <main>
   <div id="plate">loading…</div>
@@ -37,9 +37,9 @@
   </aside>
 </main>
 <script>
-  const which = new URLSearchParams(location.search).get('reading') === 'b' ? 'b' : 'a';
+  const which = new URLSearchParams(location.search).get('reading') === 'night' ? 'night' : 'whole';
   document.getElementById(which).setAttribute('aria-current', 'page');
-  fetch(`reading-${which}.svg`).then(r => r.text()).then(svg => {
+  fetch(which === 'whole' ? 'whole.svg' : 'night-loop.svg').then(r => r.text()).then(svg => {
     const host = document.getElementById('plate');
     host.innerHTML = svg;
     let picked = null;

@@ -1,0 +1,225 @@
+// emitted artifact, do not edit by hand.
+// diagram      : rite
+// source       : pgm-i-42-pnouthis.txt
+// source sha256: 8698aa5a6c183650a3a8eeb4abce8bbd4cfdbc7178d1fa65fdc0a6ec9354c024
+// lexicon      : v3
+// grid         : 15 rows x 5 lanes, 99 cycles (1 row = 1 cycle; traced rows repeat)
+//
+// Each <...> has exactly one token per cycle, so a lane string is a
+// literal transcription of a column of the diagram. Everything audible
+// is read off the Score; nothing here is a free choice.
+
+setcps(0.350)
+
+stack(
+  // lane 0 r0 · purify · binding · arity 1 to 2 · cites 51 chars
+  n("<[[0,3] ~ [0,3] ~ ~ [0,3] ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[0,3] ~ [0,3] ~ ~ [0,3] ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[0,3] ~ [0,3] ~ ~ [0,3] ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[0,3] ~ [0,3] ~ ~ [0,3] ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[0,3] ~ [0,3] ~ ~ [0,3] ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[0,3] ~ [0,3] ~ ~ [0,3] ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[0,3] ~ [0,3] ~ ~ [0,3] ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~>")
+    .scale("<c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor>")
+    .s("square")
+    .gain(0.70)
+    .clip(0.46)
+    .attack(0.004).decay(0.18).sustain(0.2).release(0.25)
+    .lpf(350).lpenv(4).lpa(0.05).lpq(7)
+    .crush(12)
+    .pan(0.00)
+    .room("<0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.55>"),
+
+  // lane 0 r1 · ascend · journey · arity 1 to 2 · cites 23 chars
+  n("<~ [[0,3] ~ [0,3] ~ ~ [0,3] ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[0,3] ~ [0,3] ~ ~ [0,3] ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[0,3] ~ [0,3] ~ ~ [0,3] ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[0,3] ~ [0,3] ~ ~ [0,3] ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[0,3] ~ [0,3] ~ ~ [0,3] ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[0,3] ~ [0,3] ~ ~ [0,3] ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[0,3] ~ [0,3] ~ ~ [0,3] ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~>")
+    .scale("<c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor>")
+    .s("sawtooth")
+    .gain(0.60)
+    .clip(0.32)
+    .attack(0.004).decay(0.18).sustain(0.2).release(0.25)
+    .lpf(350).lpenv(4).lpa(0.05).lpq(7)
+    .vowel("o")
+    .pan(0.00)
+    .room("<0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.55>"),
+
+  // lane 0 r3 · hail · speech · arity 2 to 2 · cites 55 chars
+  n("<~ ~ ~ [[0,3] ~ [0,3] ~ [0,3] ~ [0,3] ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[0,3] ~ [0,3] ~ [0,3] ~ [0,3] ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[0,3] ~ [0,3] ~ [0,3] ~ [0,3] ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[0,3] ~ [0,3] ~ [0,3] ~ [0,3] ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[0,3] ~ [0,3] ~ [0,3] ~ [0,3] ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[0,3] ~ [0,3] ~ [0,3] ~ [0,3] ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[0,3] ~ [0,3] ~ [0,3] ~ [0,3] ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~>")
+    .scale("<c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor>")
+    .s("triangle")
+    .gain(0.60)
+    .clip(0.48)
+    .attack(0.004).decay(0.18).sustain(0.2).release(0.25)
+    .lpf(350).lpenv(0).lpa(0.05).lpq(7)
+    .vowel("a")
+    .pan(0.00)
+    .room("<0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.55>"),
+
+  // lane 0 r12 · deify · union · arity 2 to 1 · cites 63 chars
+  n("<~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [0 ~ 0 ~ ~ 0 ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [0 ~ 0 ~ ~ 0 ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [0 ~ 0 ~ ~ 0 ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [0 ~ 0 ~ ~ 0 ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [0 ~ 0 ~ ~ 0 ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [0 ~ 0 ~ ~ 0 ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [0 ~ 0 ~ ~ 0 ~ ~] ~ ~>")
+    .scale("<c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor>")
+    .s("triangle")
+    .gain(0.80)
+    .clip(0.52)
+    .attack(0.004).decay(0.18).sustain(0.2).release(0.25)
+    .lpf(350).lpenv(-4).lpa(0.05).lpq(7)
+    .shape(0.1)
+    .pan(0.00)
+    .room("<0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.55>"),
+
+  // lane 0 r13 · renew · journey · arity 2 to 1 · cites 42 chars
+  n("<~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [0 ~ 0 ~ ~ 0 ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [0 ~ 0 ~ ~ 0 ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [0 ~ 0 ~ ~ 0 ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [0 ~ 0 ~ ~ 0 ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [0 ~ 0 ~ ~ 0 ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [0 ~ 0 ~ ~ 0 ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [0 ~ 0 ~ ~ 0 ~ ~] ~>")
+    .scale("<c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor>")
+    .s("sawtooth")
+    .gain(0.60)
+    .clip(0.41)
+    .attack(0.004).decay(0.18).sustain(0.2).release(0.25)
+    .lpf(350).lpenv(-4).lpa(0.05).lpq(7)
+    .vowel("o")
+    .pan(0.00)
+    .room("<0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.55>"),
+
+  // lane 1 r4 · drop · taking · arity 1 to 1 · cites 24 chars
+  n("<~ ~ ~ ~ [1 ~ ~ ~ 1 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [1 ~ ~ ~ 1 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [1 ~ ~ ~ 1 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [1 ~ ~ ~ 1 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [1 ~ ~ ~ 1 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [1 ~ ~ ~ 1 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [1 ~ ~ ~ 1 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~>")
+    .scale("<c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor>")
+    .s("triangle")
+    .gain(0.70)
+    .clip(0.32)
+    .attack(0.004).decay(0.18).sustain(0.2).release(0.25)
+    .lpf(600).lpenv(0).lpa(0.05).lpq(7)
+    .shape(0.35)
+    .pan(0.25)
+    .room("<0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.55>"),
+
+  // lane 1 r5 · engrave · binding · arity 1 to 1 · cites 37 chars
+  n("<~ ~ ~ ~ ~ [1 ~ ~ ~ 1 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [1 ~ ~ ~ 1 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [1 ~ ~ ~ 1 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [1 ~ ~ ~ 1 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [1 ~ ~ ~ 1 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [1 ~ ~ ~ 1 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [1 ~ ~ ~ 1 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~>")
+    .scale("<c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor>")
+    .s("square")
+    .gain(0.70)
+    .clip(0.39)
+    .attack(0.004).decay(0.18).sustain(0.2).release(0.25)
+    .lpf(600).lpenv(0).lpa(0.05).lpq(7)
+    .crush(12)
+    .pan(0.25)
+    .room("<0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.55>"),
+
+  // lane 1 r9 · adjure · binding · arity 2 to 2 · cites 69 chars
+  n("<~ ~ ~ ~ ~ ~ ~ ~ ~ [[1,4] ~ [1,4] ~ [1,4] ~ [1,4] ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[1,4] ~ [1,4] ~ [1,4] ~ [1,4] ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[1,4] ~ [1,4] ~ [1,4] ~ [1,4] ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[1,4] ~ [1,4] ~ [1,4] ~ [1,4] ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[1,4] ~ [1,4] ~ [1,4] ~ [1,4] ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[1,4] ~ [1,4] ~ [1,4] ~ [1,4] ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [[1,4] ~ [1,4] ~ [1,4] ~ [1,4] ~] ~ ~ ~ ~ ~>")
+    .scale("<c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor>")
+    .s("square")
+    .gain(0.70)
+    .clip(0.54)
+    .attack(0.004).decay(0.18).sustain(0.2).release(0.25)
+    .lpf(600).lpenv(0).lpa(0.05).lpq(7)
+    .crush(12)
+    .pan(0.25)
+    .room("<0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.55>"),
+
+  // lane 2 r2 · sunrise · appearance · arity 1 to 1 · cites 49 chars
+  n("<~ ~ [2 ~ ~ ~ 2 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ 2 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ 2 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ 2 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ 2 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ 2 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ 2 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~>")
+    .scale("<c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor>")
+    .s("sine")
+    .gain(0.60)
+    .clip(0.45)
+    .attack(0.004).decay(0.18).sustain(0.2).release(0.25)
+    .lpf(850).lpenv(0).lpa(0.05).lpq(7)
+    .vowel("a")
+    .pan(0.50)
+    .room("<0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.55>"),
+
+  // lane 2 r6 · sunset · silencing · arity 1 to 1 · cites 48 chars
+  n("<~ ~ ~ ~ ~ ~ [2 ~ ~ ~ 2 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ 2 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ 2 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ 2 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ 2 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ 2 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ 2 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~>")
+    .scale("<c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor>")
+    .s("square")
+    .gain(0.50)
+    .clip(0.44)
+    .attack(0.3).decay(0.25).sustain(0.45).release(0.8)
+    .lpf(850).lpenv(0).lpa(0.35).lpq(7)
+    .crush(4)
+    .pan(0.50)
+    .room("<0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.55>"),
+
+  // lane 2 r10 · command · command · arity 1 to 1 · cites 41 chars
+  n("<~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ 2 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ 2 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ 2 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ 2 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ 2 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ 2 ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ 2 ~ ~ ~] ~ ~ ~ ~>")
+    .scale("<c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor>")
+    .s("sawtooth")
+    .gain(0.65)
+    .clip(0.41)
+    .attack(0.004).decay(0.18).sustain(0.2).release(0.25)
+    .lpf(850).lpenv(0).lpa(0.05).lpq(7)
+    .shape(0.45)
+    .pan(0.50)
+    .room("<0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.55>"),
+
+  // lane 2 r11 · dismiss · departure · arity 1 to 0 · cites 28 chars
+  n("<~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ ~ ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ ~ ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ ~ ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ ~ ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ ~ ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ ~ ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [2 ~ ~ ~ ~ ~ ~ ~] ~ ~ ~>")
+    .scale("<c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor>")
+    .s("sawtooth")
+    .gain(0.70)
+    .clip(0.34)
+    .attack(0.3).decay(0.25).sustain(0.45).release(0.8)
+    .lpf(850).lpenv(-4).lpa(0.35).lpq(7)
+    .vowel("u")
+    .pan(0.50)
+    .room("<0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.55>"),
+
+  // lane 3 r7 · descend · appearance · arity 0 to 1 · cites 27 chars
+  n("<~ ~ ~ ~ ~ ~ ~ [3 ~ ~ ~ ~ ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [3 ~ ~ ~ ~ ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [3 ~ ~ ~ ~ ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [3 ~ ~ ~ ~ ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [3 ~ ~ ~ ~ ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [3 ~ ~ ~ ~ ~ ~ ~] ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ [3 ~ ~ ~ ~ ~ ~ ~] ~ ~ ~ ~ ~ ~ ~>")
+    .scale("<c5:major c5:minor c5:minor c5:major c5:major c5:major c5:major c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:major c5:minor c5:minor c5:major c5:major c5:major c5:major c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:major c5:minor c5:minor c5:major c5:major c5:major c5:major c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:major c5:minor c5:minor c5:major c5:major c5:major c5:major c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:major c5:minor c5:minor c5:major c5:major c5:major c5:major c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:major c5:minor c5:minor c5:major c5:major c5:major c5:major c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:major c5:minor c5:minor c5:major c5:major c5:major c5:major c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor>")
+    .s("sine")
+    .gain(0.60)
+    .clip(0.34)
+    .attack(0.004).decay(0.18).sustain(0.2).release(0.25)
+    .lpf(1100).lpenv(4).lpa(0.05).lpq(7)
+    .vowel("a")
+    .pan(0.75)
+    .room("<0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.55 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.64 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.73 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.90 0.55>"),
+
+  // lane 0 · drone · carries Operator, Adept
+  n("<0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0>")
+    .scale("<c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:major c2:minor c2:minor c2:major c2:major c2:major c2:major c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor c2:minor>")
+    .s("sine")
+    .gain(0.30)
+    .clip(1.06)
+    .attack(0.87).release(1.5)
+    .lpf(640)
+    .room(0.55)
+    .pan(0.00)
+    .delay(0.42).delaytime(0.375).delayfeedback(0.34),
+
+  // lane 1 · drone · carries Dark, Roof, Falcon, Stone, Amulet
+  n("<~ 2 2 2 2 2 2 2 2 2 2 2 2 2 ~ 2 2 2 2 2 2 2 2 2 2 2 2 2 ~ 2 2 2 2 2 2 2 2 2 2 2 2 2 ~ 2 2 2 2 2 2 2 2 2 2 2 2 2 ~ 2 2 2 2 2 2 2 2 2 2 2 2 2 ~ 2 2 2 2 2 2 2 2 2 2 2 2 2 ~ 2 2 2 2 2 2 2 2 2 2 2 2 2 ~>")
+    .scale("<c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:major c3:minor c3:minor c3:major c3:major c3:major c3:major c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor c3:minor>")
+    .s("sine")
+    .gain(0.30)
+    .clip(1.06)
+    .attack(0.42).release(1.5)
+    .lpf(774)
+    .room(0.55)
+    .pan(0.25),
+
+  // lane 2 · drone · carries Dark, Sunlit, Angel, Assistant, Task
+  n("<~ ~ 2 0 0 0 0 2 2 4 4 4 2 ~ ~ ~ 2 0 0 0 0 2 2 4 4 4 2 ~ ~ ~ 2 0 0 0 0 2 2 4 4 4 2 ~ ~ ~ 2 0 0 0 0 2 2 4 4 4 2 ~ ~ ~ 2 0 0 0 0 2 2 4 4 4 2 ~ ~ ~ 2 0 0 0 0 2 2 4 4 4 2 ~ ~ ~ 2 0 0 0 0 2 2 4 4 4 2 ~ ~>")
+    .scale("<c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:major c4:minor c4:minor c4:major c4:major c4:major c4:major c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor c4:minor>")
+    .s("sine")
+    .gain(0.30)
+    .clip(1.06)
+    .attack(0.42).release(1.5)
+    .lpf(774)
+    .room(0.55)
+    .pan(0.50),
+
+  // lane 3 · drone · carries Angel, Dark
+  n("<~ ~ ~ ~ ~ ~ ~ ~ 6 2 2 2 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 6 2 2 2 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 6 2 2 2 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 6 2 2 2 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 6 2 2 2 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 6 2 2 2 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 6 2 2 2 ~ ~ ~>")
+    .scale("<c5:major c5:minor c5:minor c5:major c5:major c5:major c5:major c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:major c5:minor c5:minor c5:major c5:major c5:major c5:major c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:major c5:minor c5:minor c5:major c5:major c5:major c5:major c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:major c5:minor c5:minor c5:major c5:major c5:major c5:major c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:major c5:minor c5:minor c5:major c5:major c5:major c5:major c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:major c5:minor c5:minor c5:major c5:major c5:major c5:major c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:major c5:minor c5:minor c5:major c5:major c5:major c5:major c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor c5:minor>")
+    .s("sine")
+    .gain(0.30)
+    .clip(1.06)
+    .attack(0.33).release(1.5)
+    .lpf(801)
+    .room(0.55)
+    .pan(0.75),
+
+  // consort · presence axis. A Silent family member emits 0, so the
+  // musicians falling silent is literal silence, not a quieter note.
+  s("white*4").lpf(6000).decay(0.06).sustain(0)
+    .mask("<1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1>")
+    .gain(0.30)
+
+).postgain(0.160).compressor("-24:4:8:.01:.1")
+
+// trace t36: rows 0..14 read 7x -- "spoken seven times seven"
+// no terminal.

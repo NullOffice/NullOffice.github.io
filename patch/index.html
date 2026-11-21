@@ -15,16 +15,17 @@
 <body>
 <header>
   <a href="../">materials</a>
-  <a id="a" href="?reading=a">Reading A — night loop ×7</a>
-  <a id="b" href="?reading=b">Reading B — dawn recitation ×49</a>
-  <a id="raw" href="reading-a.txt">plain text</a>
+  <a id="whole" href="?reading=whole">the whole rite ×7</a>
+  <a id="night" href="?reading=night">earlier libretto: night loop ×7</a>
+  <a id="raw" href="whole.txt">plain text</a>
 </header>
 <pre id="code">loading…</pre>
 <script>
-  const which = new URLSearchParams(location.search).get('reading') === 'b' ? 'b' : 'a';
+  const which = new URLSearchParams(location.search).get('reading') === 'night' ? 'night' : 'whole';
   document.getElementById(which).setAttribute('aria-current', 'page');
-  document.getElementById('raw').href = `reading-${which}.txt`;
-  fetch(`reading-${which}.txt`).then(r => r.text()).then(t => { document.getElementById('code').textContent = t; });
+  const file = which === 'whole' ? 'whole.txt' : 'night-loop.txt';
+  document.getElementById('raw').href = file;
+  fetch(file).then(r => r.text()).then(t => { document.getElementById('code').textContent = t; });
 </script>
 </body>
 </html>
