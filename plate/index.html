@@ -31,7 +31,7 @@
 <main>
   <div id="plate">loading…</div>
   <aside>
-    <div id="name">Click a mark.</div>
+    <div id="name">Click a box or a wire.</div>
     <div id="quote"></div>
     <div id="span"></div>
   </aside>
@@ -50,8 +50,8 @@
       picked = el; el.classList.add('picked');
       const kind = el.dataset.kind ? ` · ${el.dataset.kind}` : '';
       document.getElementById('name').textContent = (el.dataset.name || '') + kind;
-      document.getElementById('quote').textContent = `“${el.dataset.quote}”`;
-      document.getElementById('span').textContent = `cites bytes ${el.dataset.span} of the sealed source (PGM I.42–195, sha256 8698aa5a…)`;
+      document.getElementById('quote').textContent = el.dataset.quote;
+      document.getElementById('span').textContent = el.dataset.kind ? 'a morphism (box)' : 'an object (wire)';
     });
   });
 </script>
